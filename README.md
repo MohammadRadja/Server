@@ -13,7 +13,7 @@ The HealthyApps Backend is responsible for data management, request processing, 
 - Node.js
 
 
-### How to Get Started
+### How to Get Started 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/MohammadRadja/Server
@@ -27,8 +27,6 @@ The HealthyApps Backend is responsible for data management, request processing, 
    ```bash
    npx prisma migrate dev
 5. **Configure Environment Variables:**
-   ```bash
-   npx prisma migrate dev  
 6. **Run the Application:**
    ```bash
    npm run start
