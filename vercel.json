@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.js"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "mysql://u265582689_healthyapps:@Radja123@auth-db1151.hstgr.io:3306/u265582689_healthyapps"
+  },
+  "build": {
+    "env": {
+      "DATABASE_URL": "mysql://u265582689_healthyapps:@Radja123@auth-db1151.hstgr.io:3306/u265582689_healthyapps"
+    },
+    "commands": {
+      "build": "npm run build"
+    }
+  }
+}
