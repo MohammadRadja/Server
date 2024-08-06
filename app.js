@@ -11,7 +11,7 @@ import dietRoute from "./prisma/routes/dietRoute.js";
 import { scheduleReminders } from "./prisma/services/reminderEmail.js";
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT;
 
 scheduleReminders();
 
